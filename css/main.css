@@ -1,0 +1,108 @@
+body {
+  background: url('../images/fondo_cinemark.jpg');
+  background-size: 40%;
+  color:#fff;
+}
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+  width:100%;
+
+
+}
+#share_btn {
+
+    text-align: right;
+    font-family: 'PT Sans', sans-serif;
+}
+  #share_btn a{
+    color:#fff;
+    text-decoration: none;
+  }
+#share_btn p{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+#titulo {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+#logo {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+#logo img {
+  width:63%;
+  max-width: 563px;
+}
+#texto {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+.iconos{
+  text-align: center;
+}
+.iconos img {
+  width:43%;
+  max-width: 506px;
+  display: block;
+  margin: 20px auto;
+
+}
+@media (min-width: 360px){
+  #logo {
+
+    margin-bottom: 30px;
+
+  }
+  #titulo {
+
+    margin-top: 35px;
+  }
+
+  #texto{
+    width:90%;
+  }
+  #logo img {
+    width:43%;
+  }
+  .iconos img {
+    width:45%;
+  }
+}
+@media (min-width: 768px) {
+
+  #logo {
+
+    margin-bottom: 40px;
+
+  }
+  #titulo {
+
+    margin-top: 50px;
+  }
+#texto{
+  width:60%;
+  font-size: 16px;
+
+}
+
+#share_btn p{
+
+  font-size: 15px;
+}
+#logo img {
+  width:53%;
+}
+.iconos img {
+  width:20%;
+}
+}
