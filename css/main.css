@@ -1,3 +1,6 @@
+#st-1 .st-btn[data-network='sharethis'] {
+    background-color: transparent !important;
+}
 body {
   background: url('../images/fondo_cinemark.jpg');
   background-size: 40%;
@@ -57,6 +60,22 @@ body {
   margin: 20px auto;
 
 }
+#social_links_cinemark{
+  width:100%;
+  display:flex;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+.two{
+  width:45%;
+  margin: 0 auto;
+  margin-left: 15px;
+}
+.two img {
+  height: 20px;
+  width: auto;
+  margin-bottom: 2px;
+}
 @media (min-width: 360px){
   #logo {
 
@@ -72,10 +91,19 @@ body {
     width:90%;
   }
   #logo img {
-    width:43%;
+    width:56%;
   }
   .iconos img {
     width:45%;
+  }
+  .two{
+
+    margin-left: 20px;
+  }
+  .two img {
+    height: 22px;
+    width: auto;
+    margin-bottom: 2px;
   }
 }
 @media (min-width: 768px) {
@@ -100,9 +128,22 @@ body {
   font-size: 15px;
 }
 #logo img {
-  width:53%;
+  width:40%;
 }
 .iconos img {
   width:20%;
+}
+#social_links_cinemark {
+    width: 55%;
+  }
+  .two{
+    width:50%;
+    margin-left: 35px;
+
+  }
+.two img {
+  height: 30px;
+  width: auto;
+  margin-bottom: 2px;
 }
 }
