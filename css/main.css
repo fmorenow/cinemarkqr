@@ -1,6 +1,9 @@
 #st-1 .st-btn[data-network='sharethis'] {
     background-color: transparent !important;
 }
+html {
+  background-color: transparent !important;
+}
 body {
   background: url('../images/fondo_cinemark.jpg');
   background-size: 40%;
